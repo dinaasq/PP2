@@ -1,7 +1,7 @@
-sum1 = 100 + 50     
-sum2 = sum1 + 250    
-sum3 = sum2 + sum2   
-print(sum1)
-print(sum2)
-print(sum3)
+x = ["apple", "banana"]
+y = ["apple", "banana"]
+z = x
 
+print(x is z)
+print(x is y)
+print(x == y)
